@@ -1,0 +1,89 @@
+{
+  "tema": "¿Cuánto te cuesta una consulta sin responder?",
+  "hook": {
+    "eyebrow": "HEXA · INMOBILIARIO",
+    "title": "¿Cuánto te cuesta una",
+    "display_word": "consulta",
+    "title_end": "sin responder?",
+    "photo_side": "right"
+  },
+  "slides": [
+    {
+      "n": 1, "type": "cover",
+      "eyebrow": "HEXA · INMOBILIARIO",
+      "display_word": "consulta.",
+      "title_top": "¿Cuánto te cuesta una",
+      "title_bottom": "sin responder?",
+      "caption": "Lo que nadie te dice sobre la velocidad de respuesta."
+    },
+    {
+      "n": 2, "type": "stat",
+      "eyebrow": "EL DATO",
+      "number": "80%",
+      "headline": "de las ventas inmobiliarias se pierden por falta de seguimiento.",
+      "body": "No por falta de clientes. No por precio. No por el piso. El cliente estaba ahí. Alguien más respondió primero."
+    },
+    {
+      "n": 3, "type": "dark_image",
+      "eyebrow": "ERROR #01",
+      "display_word": "tarde.",
+      "title": "Responder",
+      "body": "El lead llama a las 18:43 preguntando por el piso de 3 habitaciones. Tú le contestas al día siguiente a las 11:20.\nYa habló con otras 5 inmobiliarias. Ya reservó visita con dos de ellas.",
+      "callout_top": "18:43 — consulta entrante",
+      "callout_bot": "11:20 — tu respuesta (16 h tarde)"
+    },
+    {
+      "n": 4, "type": "dark_image",
+      "eyebrow": "ERROR #02",
+      "display_word": "genérica.",
+      "title": "Respuesta",
+      "body": "\"Hola, gracias por contactar. Te paso mi disponibilidad.\" Sin mencionar su zona, su presupuesto ni el piso que preguntó.\nEl cliente no lee eso. Borra el mensaje. Sigue buscando.",
+      "callout_top": "0 personalización",
+      "callout_bot": "0 contexto"
+    },
+    {
+      "n": 5, "type": "stat",
+      "eyebrow": "LA REGLA",
+      "number": "5 min",
+      "headline": "es lo que tienes para responder.",
+      "body": "Estudios de MIT y InsideSales: si contactas al lead en los primeros 5 minutos, multiplicas por 9 la probabilidad de cualificarlo.\nEsperar 10 minutos ya reduce la conversión en un 400%."
+    },
+    {
+      "n": 6, "type": "portrait_anatomy",
+      "eyebrow": "LO QUE PIERDES",
+      "title": "Cada consulta sin respuesta es una comisión que se va a otra inmobiliaria.",
+      "points": [
+        { "label": "Tiempo", "text": "invertido en captar ese lead por ads, SEO o referidos" },
+        { "label": "Comisión", "text": "de 3.000 € a 12.000 € por operación cerrada" },
+        { "label": "Reputación", "text": "un lead ignorado = 3 amigos que no te recomiendan" }
+      ]
+    },
+    {
+      "n": 7, "type": "dark_image",
+      "eyebrow": "ERROR #03",
+      "display_word": "fantasma.",
+      "title": "Seguimiento",
+      "body": "Visitó el piso, le gustó, dijo que lo pensaba… y nunca le volviste a escribir.\nA los 7 días ya firmó con otro agente que sí le mandó un mensaje el domingo por la noche.",
+      "callout_top": "0 llamadas después de la visita",
+      "callout_bot": "0 WhatsApp de seguimiento"
+    },
+    {
+      "n": 8, "type": "checklist_light",
+      "eyebrow": "EL SISTEMA MÍNIMO",
+      "title": "3 reglas que separan a los que venden de los que esperan.",
+      "items": [
+        { "num": "01", "text": "Responde SIEMPRE en menos de 5 minutos. Da igual la hora." },
+        { "num": "02", "text": "Primer mensaje: nombre del cliente + el piso exacto que preguntó." },
+        { "num": "03", "text": "7 días de seguimiento programado después de cada visita. Sin excepción." }
+      ]
+    },
+    {
+      "n": 9, "type": "cta",
+      "eyebrow": "¿CUÁNTO ESTÁS PERDIENDO?",
+      "title_top": "Necesitas un sistema",
+      "title_bottom": "de respuesta y seguimiento, no más suerte.",
+      "cta_text": "Quiero mi auditoría gratuita",
+      "sub_cta": "Comenta \"AUDITORIA\" y te digo exactamente cuántos leads estás dejando escapar este mes."
+    }
+  ]
+}

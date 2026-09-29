@@ -1,0 +1,141 @@
+{
+  "carrusel": {
+    "titulo_proyecto": "Por qué pierdes clientes en tu inmobiliaria",
+    "formato": "4:5",
+    "dimensiones": "1080x1350",
+    "estilo_visual": "Dark Mode / Editorial B2B / UI Elements",
+    "paleta": {
+      "fondo": "#121212",
+      "titular_acento": "#FFDC00",
+      "texto": "#FFFFFF",
+      "texto_secundario": "#D0D0D0",
+      "error": "#E23B3B",
+      "ok": "#22A85A"
+    },
+    "tipografia": {
+      "titulares": "Bebas Neue",
+      "cuerpo": "Inter"
+    },
+    "handle": "@hexa.inmo",
+    "diapositivas": [
+      {
+        "slide_numero": 1,
+        "tipo": "Portada",
+        "foto": "assets/mi-foto.jpg",
+        "foto_layout": "cover_center",
+        "composicion_visual": {
+          "pose_fotografia": "Headshot frontal, brazos cruzados, sonrisa profesional, mirada directa a cámara. Cara 100% visible, sin texto encima del rostro.",
+          "posicion_foto": "Centro",
+          "fondo": "Estudio cinematográfico gris carbón, viñeta oscura, iluminación low-key"
+        },
+        "texto": {
+          "titular_principal": "POR QUÉ PIERDES CLIENTES",
+          "titular_lineas": ["POR QUÉ PIERDES", "CLIENTES"],
+          "palabras_resaltadas": ["PIERDES", "CLIENTES"],
+          "subtitulo_o_bajada": "Y cómo dejar de regalárselos a la competencia.",
+          "elementos_ui": "Sin micro-título. Contador 1/5. Tres bullets inferiores con barra amarilla: Contestas tarde / Das el precio sin valor / Cero seguimiento.",
+          "bullets": [
+            "Contestas tarde",
+            "Das el precio sin valor",
+            "Cero seguimiento"
+          ]
+        },
+        "distribucion_espacio": "Top 22%: titular gigante amarillo por ENCIMA de la cabeza. Middle 55%: retrato real centrado, cara protagonista. Bottom 23%: subtítulo blanco + 3 bullets con barra de acento."
+      },
+      {
+        "slide_numero": 2,
+        "tipo": "Error",
+        "foto": "assets/poses/pose-senala.jpg",
+        "foto_layout": "right_fade",
+        "composicion_visual": {
+          "pose_fotografia": "Mirada fija a cámara, gesto de señalar con el índice hacia el espectador. Actitud directa, sin sonrisa.",
+          "posicion_foto": "Derecha",
+          "fondo": "Estudio oscuro. Degradado negro a la izquierda para anclar tipografía y tarjetas UI."
+        },
+        "texto": {
+          "titular_principal": "1 — RESPONDES TARDE",
+          "titular_lineas": ["1 — RESPONDES", "TARDE"],
+          "palabras_resaltadas": ["RESPONDES", "TARDE"],
+          "subtitulo_o_bajada": "El lead escribe a las 18:43. Tú contestas al día siguiente.",
+          "elementos_ui": "Dos tarjetas UI apiladas: ✖ rojo 'Contestas a las 16 horas' vs ✔ verde 'Respondes en 5 minutos'.",
+          "cards": [
+            {"kind": "bad", "title": "Contestas a las 16 horas", "body": "Ya habló con 5 inmobiliarias."},
+            {"kind": "good", "title": "Respondes en 5 minutos", "body": "Tú enseñas el piso primero."}
+          ],
+          "punchline": "Si no contestas, otro ya está en la visita."
+        },
+        "distribucion_espacio": "Top 28%: titular amarillo condensed a la izquierda. Middle 42%: tarjetas UI izquierda + retrato derecha (50%). Bottom 20%: punchline."
+      },
+      {
+        "slide_numero": 3,
+        "tipo": "Error",
+        "foto": "assets/poses/pose-mesa.jpg",
+        "foto_layout": "scene_left_text",
+        "composicion_visual": {
+          "pose_fotografia": "De pie, inclinado sobre mesa de reunión, 3/4, explicando. Entorno de meeting oscuro.",
+          "posicion_foto": "Derecha / Fondo",
+          "fondo": "Sala de reuniones cinematográfica. Overlay oscuro a la izquierda."
+        },
+        "texto": {
+          "titular_principal": "2 — DAS EL PRECIO DESNUDO",
+          "titular_lineas": ["2 — DAS EL PRECIO", "DESNUDO"],
+          "palabras_resaltadas": ["PRECIO", "DESNUDO"],
+          "subtitulo_o_bajada": "Si solo dices el número, el cliente no ve valor.",
+          "elementos_ui": "Tarjeta ✖ 'El piso: 320.000 €' vs tarjeta ✔ '320.000 € · 3 hab · 12 visitas esta semana · bajó 8.000 €'.",
+          "cards": [
+            {"kind": "bad", "title": "El piso: 320.000 €", "body": "Un número. Nada más."},
+            {"kind": "good", "title": "320.000 € · 3 hab", "body": "12 visitas esta semana · bajó 8.000 €"}
+          ],
+          "punchline": "Un número solo se compara con dinero."
+        },
+        "distribucion_espacio": "Top 30%: titular amarillo ocupando el tercio izquierdo. Middle 45%: tarjetas UI sobre el degradado + escena de mesa a la derecha. Bottom 15%: punchline."
+      },
+      {
+        "slide_numero": 4,
+        "tipo": "Error",
+        "foto": "assets/poses/pose-telefono.jpg",
+        "foto_layout": "right_fade",
+        "composicion_visual": {
+          "pose_fotografia": "De pie, sostiene el teléfono a la altura del pecho, mirada a cámara, expresión seria. El no-seguimiento hecho persona.",
+          "posicion_foto": "Derecha",
+          "fondo": "Estudio carbón. Degradado izquierdo para UI."
+        },
+        "texto": {
+          "titular_principal": "3 — SEGUIMIENTO CERO",
+          "titular_lineas": ["3 — SEGUIMIENTO", "CERO"],
+          "palabras_resaltadas": ["SEGUIMIENTO", "CERO"],
+          "subtitulo_o_bajada": "Visitó, le gustó, dijo que lo pensaba. Nunca le escribiste.",
+          "elementos_ui": "Tarjeta ✖ '0 llamadas después de la visita' vs ✔ '7 días de seguimiento programado'.",
+          "cards": [
+            {"kind": "bad", "title": "0 llamadas post-visita", "body": "0 WhatsApp. 0 seguimiento."},
+            {"kind": "good", "title": "7 días de seguimiento", "body": "Programado. Sin excepción."}
+          ],
+          "punchline": "El que escribe el domingo, firma el lunes."
+        },
+        "distribucion_espacio": "Top 28%: titular. Middle 45%: tarjetas izquierda + retrato con teléfono a la derecha. Bottom 18%: punchline."
+      },
+      {
+        "slide_numero": 5,
+        "tipo": "CTA",
+        "foto": "assets/poses/pose-serio.jpg",
+        "foto_layout": "cta_right",
+        "composicion_visual": {
+          "pose_fotografia": "Tres cuartos, de pie, brazos relajados, mirada fija a cámara, expresión seria y segura. Espacio negativo a la izquierda para el CTA.",
+          "posicion_foto": "Derecha",
+          "fondo": "Estudio oscuro continuo. El sujeto ya nace con aire a la izquierda."
+        },
+        "texto": {
+          "titular_principal": "NECESITAS UN SISTEMA",
+          "titular_lineas": ["NECESITAS", "UN SISTEMA"],
+          "palabras_resaltadas": ["SISTEMA"],
+          "subtitulo_o_bajada": "No más suerte. Un proceso de respuesta y seguimiento.",
+          "elementos_ui": "Botón CTA amarillo 'QUIERO MI AUDITORÍA'. Instrucción: Comenta AUDITORIA. Nota: Sin reunión de venta. Sin compromiso.",
+          "cta": "QUIERO MI AUDITORÍA",
+          "sub_cta": "Comenta \"AUDITORIA\" y te digo cuántos clientes estás perdiendo este mes.",
+          "nota": "Sin reunión de venta. Sin compromiso."
+        },
+        "distribucion_espacio": "Top 30%: titular amarillo izquierda. Middle 35%: subtítulo + botón CTA. Right 45%: retrato. Bottom 15%: instrucción de comentario + handle."
+      }
+    ]
+  }
+}
